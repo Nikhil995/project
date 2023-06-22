@@ -4,35 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">   
 </head>
-<style>
-    img{
-        border-radius:150%;
-    }
-</style>
 <body>
-    
-   <header>
-    <div class="slidebar" background="">
-        Nikhil
-        <nav>
-        <ul>
-            <li>home</li>
-            <li>about</li>
-            <li>certificates</li>
-            <li>hobbies</li>
-        </ul>
-    </nav>
+    <header>
+  
+     <nav class="navbar">
+            <img  class="logo"src="C:\Users\HP\OneDrive\Pictures\Saved Pictures\logo.png" alt="logo"></span>
+            <a class="navbar_a" href="#Contact">Contact</a>
+            
+            <a class="navbar_a" href="#Certificates">Certificates</a>
+            <a  class="navbar_a" href="#Skills">Skills</a>
+            <a class="navbar_a" href="#About">About</a>
+             <a  class="navbar_a" href="#Home">Home</a>  
+            </nav>
+        </header>
+       
+          
+            <div class="h">
+                <span class="text"> 
+                    <span id="text1">Hello,  I am</span><br><br>
+                   
+                    <span id="text2">Nikhil  Agrawal</span><br><br>
+                    <span id="text3"> And I am Passionate </span><br><br>
+                    <span id="element"></span>
+                    <!-- <span id="text4"> Web Developer</span><br><br> -->
+                    </span>
+            
+               
 
-    </div> 
-    
-   </header>
-   <body>
-   
-
-</body>
-
-
-
+                <span class="image"><img src="C:\Users\HP\OneDrive\Pictures\Camera Roll\image2.png"alt="image"></span>
+            </div>
+            <!-- java script animation library -->
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#element', {
+                  strings: ['<i>Student</i>', '&amp; a Web Developer.'],
+                  typeSpeed: 50,
+                });
+              </script>         
 </body>
 </html>

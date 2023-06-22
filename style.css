@@ -1,0 +1,58 @@
+
+body{
+     background-color:palevioletred;  
+    margin:0px;
+       background-color:black;   
+} 
+
+
+.navbar{
+   
+    background-color:black;
+    margin: 0; 
+    padding: 0;
+    position:fixed;
+    top:0;
+    width: 100%;
+  
+}
+.navbar_a{
+
+    color:white;
+    text-decoration:none;
+    margin: 20px 20px;
+    padding-top: 30px;
+   font-size: x-large;
+    float:right;
+    font-weight: 700; 
+}
+.navbar_a:hover{
+    color:darkcyan;
+}
+.logo{
+    padding-left: 30px;
+    width: 250px;
+    height: 120px;
+}
+.image{
+    border-radius: 50%;
+    border-radius: 50%; 
+    float: right;
+   /* padding-right: 30%; */
+   margin-top: 10%;  
+}
+
+.text{
+    padding-left: 10%;
+    margin-top: 12%;
+    float:left;
+    font-size: 3rem;
+    font-weight: 300; 
+    color:white
+    
+}
+#text2{
+    color: darkcyan;
+}
+
+
